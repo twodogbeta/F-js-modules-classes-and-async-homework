@@ -42,5 +42,8 @@
   "lint-staged": {
     "*.js": "eslint \"src/\" --cache --fix --format table",
     "*.{js,css,md}": "prettier --write"
+  },
+  "dependencies": {
+    "@jest/globals": "^26.4.2"
   }
 }
